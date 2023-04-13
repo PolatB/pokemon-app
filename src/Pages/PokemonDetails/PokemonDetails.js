@@ -12,7 +12,7 @@ function PokemonDetails() {
         {pokeDex ? (
           <Pokeindex data={pokeDex} />
         ) : (
-          <p>No Pokemon data found</p>
+          <p>Please choose a Pokemon from the list first!</p>
         )}
       </div>
     </div>
